@@ -1,8 +1,8 @@
 provider "aws"
 {
     region="ap-northeast-1"
-    access_key=""
-    secret_key=""
+    access_key="AKIA2SACZ4LTPZWG56DE"
+    secret_key="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"
 }
 resource "aws_instance" "ec2_instance"
 {
