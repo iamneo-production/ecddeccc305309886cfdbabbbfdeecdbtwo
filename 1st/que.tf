@@ -6,7 +6,7 @@ provider "aws"
 }
 resource "aws_instance" "ec2_instance"
 {
-    ami=""
+    ami="ami-03a6eaae9938c858c"
     instance_type="t2.micro"
 }
 output "public_ip"
